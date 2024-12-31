@@ -19,6 +19,7 @@ var circle = L.circle([51.508, -0.11], {
     fillOpacity: 0.5,
     radius: 500
 }).addTo(map);
+circle.bindPopup("I am a circle.");
 </script>
 
 
